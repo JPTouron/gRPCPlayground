@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCPlayground", "gRPCPlayground\gRPCPlayground.csproj", "{11EFE869-3BA1-4E20-856F-931266E06B7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F6D011D-2727-402D-A919-91BCCF37590E} = {0F6D011D-2727-402D-A919-91BCCF37590E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{0F6D011D-2727-402D-A919-91BCCF37590E}"
 EndProject
